@@ -55,5 +55,6 @@ def turn_count(board)
     if i == "X" || i == "O"
         turns += 1
     end
+  end
   return turns
 end
