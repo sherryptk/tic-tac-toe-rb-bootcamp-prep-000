@@ -55,3 +55,4 @@ def turn_count(board)
   turns << i if i == "X" || i == "O"
   return turns.length
   end
+end
