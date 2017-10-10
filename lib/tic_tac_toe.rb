@@ -53,7 +53,7 @@ def turn_count(board)
   turns = []
   board.each do |i|
     if i == "X" || i == "O"
-        turns << i 
+        turns << i
       end
   return turns.length
 end
