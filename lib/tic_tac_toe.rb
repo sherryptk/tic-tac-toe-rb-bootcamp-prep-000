@@ -99,7 +99,7 @@ def play(board)
   end
 
   if winner(board)
-    puts "Congratulations #{winner(board)}, you won!"
+    puts "Congratulations #{winner(board)}!"
   else
     puts "No winner this time!"
 
