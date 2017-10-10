@@ -50,10 +50,10 @@ def turn(board)
 end
 
 def turn_count(board)
-  turns = []
+  turns = 0
   board.each do |i|
     if i == "X" || i == "O"
-        turns << i
-      end
-  return turns.length
+        turns +=
+    end
+  return turns
 end
