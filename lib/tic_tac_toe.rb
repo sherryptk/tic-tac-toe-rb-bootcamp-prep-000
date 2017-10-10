@@ -102,6 +102,6 @@ def play(board)
     puts "Congratulations #{winner(board)}, you won!"
   else
     puts "No winner this time!"
-    
+
   end
 end
