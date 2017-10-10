@@ -93,6 +93,15 @@ def winner(board)
   end
 end
 
-def play
+def play(board)
+  until over?(board)
+    turn(board)
+  end
 
+  if winner(board)
+    puts "Congratulations #{winner(board)}, you won!"
+  else
+    puts "No winner this time!"
+    
+  end
 end
